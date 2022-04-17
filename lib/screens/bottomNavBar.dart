@@ -23,7 +23,7 @@ class _BottomNavBarrState extends State<BottomNavBarr> {
     dashBoard(),
     polltMap(),
     Cart(),
-    MyHome(),
+    // MyHome(),
   ];
 
   @override

@@ -43,7 +43,7 @@ class polltMap extends StatelessWidget {
               fit: BoxFit.fill,
             ),
             SizedBox(
-              height: 25,
+              height: 16,
             ),
             GestureDetector(
                 child: Padding(

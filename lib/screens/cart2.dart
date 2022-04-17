@@ -15,26 +15,23 @@ class _Cart2State extends State<Cart2> {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        leading:  IconButton(
+        leading: IconButton(
             onPressed: () {},
             icon: Icon(Icons.arrow_back_ios_new_outlined, color: Colors.black)),
         backgroundColor: Colors.white,
         actions: [
           IconButton(
               onPressed: () {
-                Navigator.push(context,  MaterialPageRoute(
-                    builder: (context) =>
-                        Cart())
-                );
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (context) => Cart()));
               },
               icon: Icon(Icons.add_card_outlined, color: Colors.black))
         ],
       ),
-
       body: Column(
         children: [
           Padding(
-            padding: const EdgeInsets.only(top: 50.0),
+            padding: const EdgeInsets.only(top: 44.0),
             child: GestureDetector(
                 child: Image.asset(
               "assets/Airpurifier.png",
@@ -47,7 +44,7 @@ class _Cart2State extends State<Cart2> {
               child: Image.asset(
             "assets/price.png",
             width: MediaQuery.of(context).size.width,
-            height: MediaQuery.of(context).size.height/3,
+            height: MediaQuery.of(context).size.height / 3,
             fit: BoxFit.fill,
           )),
           Container(
